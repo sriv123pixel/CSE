@@ -1,0 +1,27 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(157, 247, 247);
+    animation-name: example;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    position:relative;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    0% {background-color: blueviolet;
+    top:0px;
+    left:0px;}
+    25% {background-color: brown;
+    top:300px;
+    left: 300px;}
+    50% {background-color: blue;
+    top: 300px;
+    left: 300px;}
+    75% {background-color:red;
+    top: 300px;
+    left:0px;}
+    100% {background-color:yellow;
+    top: 0px;
+    left: 0px;}
+}
